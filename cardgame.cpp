@@ -87,7 +87,8 @@ class Card
 //
 std::ostream &operator<<(std::ostream &os, Card const &c)
 { 
-	return os << c.name << "[" << c.atk << "," << c.def << "," << c.spd << "," << c.pwr << "]";
+	return os << c.name << "[" << c.atk << "," << c.def << "," \
+		 << c.spd << "," << c.pwr << "]";
 }
 
 
